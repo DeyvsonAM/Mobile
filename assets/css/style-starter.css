@@ -514,11 +514,7 @@ progress {
   }
 }
 
-.display-2 {
-  font-size: calc(1.575rem + 3.9vw);
-  font-weight: 300;
-  line-height: 1.2;
-}
+
 
 @media (min-width: 1200px) {
   .display-2 {
@@ -526,11 +522,6 @@ progress {
   }
 }
 
-.display-3 {
-  font-size: calc(1.525rem + 3.3vw);
-  font-weight: 300;
-  line-height: 1.2;
-}
 
 @media (min-width: 1200px) {
   .display-3 {
