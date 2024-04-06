@@ -1,5 +1,18 @@
 // This is the "Offline page" service worker
 
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () =>{
+      navigator.serviceWorker.register('/sw.js')
+      .then((reg) => {
+          console.log('registrado o primeiro service worker', reg);
+      }).catch((err) => {
+              console.log('algo deu errado');
+          });
+
+      
+  });
+}
+
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
 const CACHE = "pwabuilder-page";
