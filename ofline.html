@@ -1,11 +1,13 @@
+
 <!doctype html>
 <html lang="pt-br">
 
 <head>
     <!-- Required meta tags -->
     <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="sw.js">
     <meta charset="utf-8">
-    <meta name="theme-color">
+    <meta name="theme-color" content="#3dbc74">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PICKAL</title>
     <!-- Google fonts -->
@@ -16,101 +18,27 @@
     <link rel="stylesheet" href="assets/css/style-starter.css">
 </head>
 
-<body>
-    <!-- header -->
-    <header id="site-header" class="fixed-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="index.html">Pic<i class="fas fa-utensil-spoon"></i>Kal
-                </a>
-                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
-                    aria-label="Toggle navigation" id="butao">
-                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-                </button id="butao">
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Entrar</a>
-                        </li>
-                        
-                        </li>
-                      
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contato</a>
-                        </li>
-                    </ul>
-                   
-                    </div>
-                    <!--//search-right-->
-                </div>
-                <!-- toggle switch for light and dark theme -->
-                <div class="cont-ser-position">
-                    <nav class="navigation">
-                        <div class="theme-switch-wrapper">
-                            <label class="theme-switch" for="checkbox">
-                                <input type="checkbox" id="checkbox">
-                                <div class="mode-container">
-                                    <i class="gg-sun"></i>
-                                    <i class="gg-moon"></i>
-                                </div>
-                            </label>
-                        </div>
-                    </nav>
-                </div>
-                <!-- //toggle switch for light and dark theme -->
-            </nav>
-        </div>
-    </header>
-    <!-- //header -->
 
-    <!-- banner section -->
-    <section id="home" class="w3l-banner py-5">
-        <div class="banner-content">
-            <div class="container py-4">
-                <div class="row align-items-center pt-sm-5 pt-4">
+
+<div class="content-image py-5">
+    <div class="container py-md-5 py-4">
+        <div class="row py-md-4">
+            <div class="col-md-9 col-sm-8 col-6 responsive-content">
+                <h3 class="title-style">Tire foto do<span> Seu Prato</span></h3>
+                <div class="row mt-4">
                     <div class="col-md-6">
-                        <h3 class="mb-lg-4 mb-3 pb-lg-2">Mude sua vida agora <span class="d-block">Pare de inventar desculpas</span>
-                        </h3>
-                        <p class="banner-sub">Com o PicKal você não vai mais ter desculpas para deixar de serguir suas dietas e bater suas
-                            macro calorias
-                        </p>
-                        <div class="d-flex align-items-center buttons-banner">
-                            <a href="menu.html" class="btn btn-style mt-lg-5 mt-4">Começe Agora</a>
-                        </div>
+                        <p>Você já se perguntou quantas calorias estão no seu prato? PicKal é a solução perfeita para simplificar essa tarefa. Imagine tirar uma foto do seu prato e,
+                             em questão de segundos, receber informações precisas sobre as calorias contidas ali. Isso é exatamente o que o PicKal faz!</p>
                     </div>
-                    <div class="col-md-6 right-banner-2 text-end position-relative">
-                        <div class="sub-banner-image mx-auto">
-                            <img src="assets/images/banner1.png" class="img-fluid position-relative" alt=" Prato girando">
-                        </div>
+                    <div class="col-md-6 mt-md-0 mt-4">
+                        <p>Em apenas alguns momentos, o NutriScan fornece a você uma estimativa 
+                            precisa das calorias presentes em cada item do seu prato. Essas informações são exibidas de forma clara e intuitiva, permitindo que você tome decisões informadas sobre sua dieta e nutrição.</p>
                     </div>
                 </div>
+                <a href="menu.html" class="btn btn-style mt-sm-5 mt-4">Teste Agora</a>
             </div>
         </div>
-    </section>
-    <!-- //banner section -->
+    </div>
+</div>
 
-    <!-- about section -->
-    <section class="w3l-aboutblock py-5">
-        <div class="container py-md-5 py-4">
-            <div class="row">
-                <div class="col-lg-6 left-wthree-img position-relative mb-lg-0 mb-5 pb-lg-0 pb-5">
-                    <img src="assets/images/ab1.jpg" alt="Prato de comida" class="img-fluid radius-image">
-                    <img src="assets/images/ab2.jpg" alt="Prato de comida"
-                        class="img-fluid img-border position-absolute img-position radius-image me-xl-5">
-                </div>
-                <div class="col-lg-6 about-right-faq align-self ps-lg-5 mt-xl-4">
-                    
-                    <h3 class="title-style">Temos <span>5000+</span> De usuários mudando suas vidas.</h3>
-                    <p class="ab-text mt-4 pt-lg-2">"Orem ipsum viverra feugiat. Pellen tesque libero ut justo,
-                        ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Non quae, fugiat".</p>
-                    <p class="mt-4">Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Non quae, fugiat. Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
-                        ultrices in ligula.</p>
-                    
-                </div>
-            </div>
-        </div>
-    </section>
+</html>
