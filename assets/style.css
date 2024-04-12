@@ -1,0 +1,100 @@
+body {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #d0d0d0;
+    margin: 0; /* Remover margens padrão do body */
+    padding-top: 160px; /* Adicionar padding para compensar a altura do cabeçalho */
+    padding-bottom: 150px; /* Adicionar padding para compensar a altura do rodapé */
+}
+
+.centro {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.menu-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que o cabeçalho esteja acima do conteúdo */
+    background-color: #71d479; /* Cor de fundo do cabeçalho */
+    color: #000000; /* Cor do texto do cabeçalho */
+    padding: 10px; /* Espaçamento interno do cabeçalho */
+}
+
+.menu-icon {
+    top: -100px;
+    margin-right: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #71d479;
+    color: #ffffff;
+}
+
+.logo-tipo img {
+    width: 50%;
+}
+
+footer {
+    position: fixed;
+    background-color: #71d479;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.colunas {
+    background-color: #ffffff; /* Cor cinza */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-bottom: 20px;
+}
+.barra-pesquisa{
+    
+    position: fixed;
+    bottom: 200px; /* Altura do rodapé + espaço entre o rodapé e o botão */
+    right: 20px; /* Distância da borda direita */
+    z-index: 1000; /* Garante que o botão esteja acima do rodapé */
+ 
+}
+.colunas img{
+width: 40%;
+height: auto;
+}
+.ingredientes {
+    list-style: none; /* Remove os marcadores padrão */
+    padding: 0; /* Remove o padding padrão */
+}
+
+.ingredientes li {
+    display: flex; /* Usa flexbox para alinhar os itens */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+.ingredientes li::before {
+    content: "•"; /* Define o conteúdo dos marcadores */
+    margin-right: 5px; /* Adiciona espaço entre o marcador e o texto */
+}
+.q-kcal{
+    color: #8d8d8d;
+    margin-top: 20px;
+}

@@ -1,48 +1,42 @@
 {
 
-
   "name": "PicKal",
   "short_name": "PicKal",
   "icons": [
     {
-      "src": "assets/images/128.png",
+      "src": "assets/imagens/128.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "assets/images/144.png",
+      "src": "assets/imagens/144.png",
       "sizes": "144x144",
       "type": "image/png",
-      "porpose": "any"
-      
-
-      
+      "purpose": "any maskable"
     },
-    
     {
-      "src": "assets/images/152.png",
+      "src": "assets/imagens/152.png",
       "sizes": "152x152",
       "type": "image/png"
     },
     {
-      "src": "assets/images/167.png",
+      "src": "assets/imagens/167.png",
       "sizes": "167x167",
       "type": "image/png"
     },
     {
-      "src": "assets/images/180.png",
+      "src": "assets/imagens/180.png",
       "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "assets/images/196.png",
+      "src": "assets/imagens/196.png",
       "sizes": "196x196",
       "type": "image/png",
 	  "purpose": "any maskable"
     },
-    
     {
-      "src": "assets/images/512.png",
+      "src": "assets/imagens/512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
