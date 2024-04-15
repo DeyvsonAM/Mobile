@@ -98,3 +98,15 @@ height: auto;
     color: #8d8d8d;
     margin-top: 20px;
 }
+#resultadoPesquisa {
+    background-color: #f8f9fa; /* Cor de fundo */
+    border: 1px solid #ced4da; /* Borda */
+    border-radius: 5px; /* Cantos arredondados */
+    padding: 10px; /* Espaçamento interno */
+    margin-top: 10px; /* Margem superior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+#resultadoPesquisa div {
+    margin-bottom: 5px; /* Espaçamento entre os resultados */
+}
